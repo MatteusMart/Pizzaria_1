@@ -36,7 +36,7 @@ nav ul li{
 }
 
 nav ul li a{
-    color: black;
+    color: #fff;
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 100px;
@@ -44,7 +44,7 @@ nav ul li a{
 }
 
 nav ul li a#criar-conta{
-    border: 1px solid black;
+    border: 1px solid #fff;
     padding: 9px 29px;
 }
 
@@ -58,7 +58,7 @@ seu tamnho utilize width e height */
 nav ion-icon{
     width: 45px;
     height: 45px;
-    color: black;
+    color: #fff;
     margin-top:-14px;
     margin-left: 20px;
 }
@@ -69,5 +69,67 @@ nav ion-icon:hover{
     transition: 0.8s;
 }
 
+/* section{
+    padding: 55px 0 80px;
+} */
 
+header{
+    position: relative;
+    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0)),
+    url(../img/secao08-background-capa.jpg);
+    width: 100%;
+    height: 1024px;
+    background-size: cover;
+    background-position: center center;
+    border-top: 5px solid #078c31;
+}
+
+header div#chamada{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    top: 30%;
+    left: auto;
+}
+
+/*-----------------------------*/
+/*---SEÇÃO--FINAL DE SEMANA ---*/
+/*-----------------------------*/
+
+section#final-de-semana{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+div#final-semana-esquerda, div#final-semana-direita{
+    position: relative;
+    width: 15%;
+}
+
+div#final-semana-centro{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    /* alinhamento dos elementos filhos na horizontal */
+    justify-content: flex-start;
+    /* alinhamento dos elementos filhos na horizontal */
+    align-items: center;
+}
+
+div#pontos-chaves-mestre{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+div.pontos-chaves{
+    text-align: center;
+    width: 25%;
+}
 
