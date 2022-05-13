@@ -25,6 +25,24 @@ h2{
     font-weight: 200;
 }
 
+
+/* after = permite que qualquer conteúdo seja adicionado depois da tag
+aonde ele for aplicado */
+h2:after{
+    display: block;
+    background-color: #078c31;
+    height: 5px;
+    width: 100px;
+ margin: 40px auto 30px;
+    content: "";
+}
+
+h4{
+    font-size: 150%;
+    font-weight: 150;
+    padding: 20px 0;
+}
+
 p, li, a{
     font-family:'Opens Sans' , sans-serif;
     color: #404040;
@@ -56,5 +74,36 @@ header div#chamada a{
     border-radius: 50px;
     display: inline-block;
 }
+
+/* ------------ */
+
+div.pontos-chaves h4{
+    color: #404040;
+}
+
+div.pontos-chaves h4:after{
+    display: block;
+    background-color: #078c31;
+    height: 5px;
+    width: 30%;
+    margin: 20px auto 10px;
+    content:"";
+}
+
+/* seçao pizza */
+
+section#pizza p.destaque {
+    color: #fff;
+    width: 40%;
+}
+
+section#pizza ul li{
+    color: #fff;
+    list-style: none;
+    line-height: 1.9;
+    font-size: 90%;
+    text-transform: uppercase;
+}
+
 
 
