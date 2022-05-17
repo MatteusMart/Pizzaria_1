@@ -48,6 +48,14 @@ p, li, a{
     color: #404040;
 }
 
+p.destaque{
+    font-size: 130%;
+    line-height: 1.8;
+    font-weight: 300;
+    text-align: center;
+    width: 60%;
+}
+
 /*-----------------------------*/
 /*-----ELEMENTOS DO HEADER-----*/
 /*-----------------------------*/
