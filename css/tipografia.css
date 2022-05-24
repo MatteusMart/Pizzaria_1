@@ -139,4 +139,24 @@ section#plano-principal ul li{
 
 }
 
+section#plano-principal div.planos-bottom p{
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 35px;
+}
+
+/* footer */
+
+footer div#info ul{
+    margin-left: 15px;
+    margin-bottom: 120px;
+}
+
+footer div#info li {
+    list-style: none;
+    color: #fff;
+    margin-bottom: 5px;
+}
 

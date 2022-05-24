@@ -1,0 +1,16 @@
+header div#chamada a{
+    border-radius: 0;
+}
+
+h2{
+    font-size: 250%;
+}
+
+/* nav */
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: left;
+}
