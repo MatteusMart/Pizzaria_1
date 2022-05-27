@@ -63,12 +63,20 @@ header div#chamada h1{
     color: #fff;
     /* deslocamento x / deslocamento y / raio-de-desfoque/ cor */
     text-shadow: 4px 6px 10px #000;
+    /* animation name= define qual animação será inserida no elemento */
+    animation-name: HeaderH1-moverDireita;
+    /* animation-duration= define o tempo total que a animaçao ira durar */
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
 }
 
 header div#chamada h4{
     font-size: 250%;
     text-shadow: 4px 6px 10px #000;
     margin-bottom: 55px;
+    animation-name: HeaderH4-moverEsquerda;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
 }
 
 header div#chamada a{
@@ -81,6 +89,9 @@ header div#chamada a{
     padding: 20px 80px;
     border-radius: 50px;
     display: inline-block;
+    animation-name: HeaderA-moverCima;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
 }
 
 /* ------------ */

@@ -1,0 +1,50 @@
+@keyframes HeaderH1-moverDireita{
+    0%{
+        opacity: 0;
+        /* transform permite animar um elemento na tela 
+        translatex altera a posição do elemento no eixo x */
+        transform: translateX(-75px);
+    }
+
+    70%{
+        transform: translateX(20px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes HeaderH4-moverEsquerda{
+    0%{
+        opacity: 0;
+        /* transform permite animar um elemento na tela 
+        translatex altera a posição do elemento no eixo x */
+        transform: translateX(75px);
+    }
+
+    70%{
+        transform: translateX(-15px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes HeaderA-moverCima{
+    0%{
+        opacity: 0;
+        /* transform permite animar um elemento na tela 
+        translatex altera a posição do elemento no eixo x */
+        transform: translateY(75px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
